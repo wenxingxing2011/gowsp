@@ -50,7 +50,8 @@ func main() {
 	browser := 0
 	flag.IntVar(&browser, "type", 0, "0:deault browser 1:app style chrome")
 	flag.Parse()
-	ws, err := backend.New(browser, "ex.html", new(Msg))
+	// ws, err := backend.New(browser, "ex.html", new(Msg))
+	ws, err := backend.New(backend.AppOptionChrome, "ex.html", new(Msg))
 	if err != nil {
 		log.Fatal(err)
 	}

@@ -10,7 +10,7 @@
             "remotePath": "",
             "port": 2345,
             "host": "127.0.0.1",
-            "program": "${workspaceRoot}/src/wxwall",
+            "program": "${workspaceRoot}/src/wxsltool",
             "env": {},
             "args": [],
             "showLog": true
